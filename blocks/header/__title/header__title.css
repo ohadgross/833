@@ -4,7 +4,7 @@
 
 @media screen and (min-width:321px) and (max-width:720px){
     .header__title {
-        color:rgb(115, 128, 0);
+        color:yellow;
         font-size: 12px;
         width:400px;
 }
