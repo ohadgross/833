@@ -1,5 +1,5 @@
 .header__title{
-   
+   background-color: blue;
 }
 
 @media screen and (min-width:321px) and (max-width:720px){
