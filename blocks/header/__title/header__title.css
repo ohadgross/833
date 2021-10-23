@@ -4,9 +4,9 @@
 
 @media screen and (min-width:321px) and (max-width:720px){
     .header__title {
-        color:pink;
+        color:green;
         font-size: 12px;
-        width:250px;
+        width:300px;
 }
 }
 
