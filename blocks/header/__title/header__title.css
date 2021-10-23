@@ -1,12 +1,14 @@
 .header__title{
    background-color: blue;
+   display: flex;
 }
 
 @media screen and (min-width:321px) and (max-width:720px){
     .header__title {
         color:yellow;
         font-size: 12px;
-        width:400px;
+        width:200px;
+        justify-content: center;
 }
 }
 
@@ -14,6 +16,7 @@
     .header__title {
         color:red;
         font-size: 8px;
-        width:300px;
+        width:200px;
+        justify-content: center;
   }
 }
