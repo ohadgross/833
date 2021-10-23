@@ -25,10 +25,11 @@
         width: 150px;
         font-size: 18px;
 }
-
+}
 
 @media screen and (max-width: 320px) {
     .header__link-container {
        
      
   }
+}
