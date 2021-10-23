@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>833 The Best Service Site</title>
+  <meta name="description" content="The Best Service Site">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+<script language=javascript>
+    function validateForm() {
+        var phone = document["form1"]["phone"].value;
+        var phone_verification = document["form1"]["phone_verification"].value;
+        var remarks = document["form1"]["remarks"].value;
+        // console.log('phone', phone);
+        // console.log('comments', comments);
+      //  if comments='' alert('Empy Form');
+      //  if ( phone1 !== phone2) {
+     //       alert('שני מספרי הטלפון צריכים להיות זהים');
+     //       return false;
+    //    }
+        if ( remarks) {
+            alert('You must enter comments');
+            return false;
+        }
+       return true;
+    }
+</script>
+<body background="assets/images/BACKGROUND1.jpg">
+
+   
+    <FONT color=white size=2 ALIGN=right>
+    Last Update: 13/01/2020
+    </FONT>
+    <table align=right>
+        <tr><td><FONT color=white size=6 ALIGN=right>
+            בס"ד
+            </FONT></td></tr>
+    </table>
+
+                                                                                                  <table border=1 align=center>
+                                                                                                        <tr>
+                                                                                                        <td align=right>
+                                                                                                        
+                                                                                                        <FONT color=white size=6 ALIGN=center>
+                                                                                                        אתר שירות אשמח לקבל חוות דעת על האתר
+                                                                                                        </font>
+                                                                                                        
+                                                                                                        <br>
+                                                                                                        <FONT color=white size=6 ALIGN=center>
+                                                                                                        :אנא מלא את הפרטים שלך בטופס הבא
+                                                                                                        
+                                                                                                        </FONT>
+                                                                                                        </td></tr></table> 
+<form name="form1" id="form1" action="scripts/send_mail.php" method="POST" onsubmit="return validateForm()">
+ 
+<br>
+<br> 
+<TABLE border=1 align=center>
+        <tr><td><input type=text align=right size=70 name="first_name"></td>
+            <td>
+            <FONT color=white size=4 ALIGN=RIGHT>
+            :שם
+                    </font>
+            </td>
+            </tr>
+<tr><td><input type=text align=right size=70 name="phone1"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:טלפון
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="phone2" ></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:וידוא טלפון
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="street"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:רחוב
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="city"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:עיר
+</font>
+</td>
+</tr>
+
+
+
+<tr><td>
+<input type=text align=right size=70 name="email1"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:דואר אלקטרוני
+</font>
+</td>
+</tr>
+<TR>
+<TR size=2>
+        <td align=center>
+                <FONT color=white size=4 ALIGN=RIGHT>
+                :הערות
+                </font>
+                </td>
+            </Tr><tr>
+<TD><textarea rows="10" cols="80" name="remarks"></textarea></TD>
+</TR>
+
+</tr>
+<TR></TR>
+<TR size=2>
+<TR>
+<TD width=2 align=center><INPUT TYPE="submit" size=20 width=20 VALUE="שלח" javascript:validateForm()></TD>
+</TR>
+<table>
+</form>
+
+</body>
+</html>

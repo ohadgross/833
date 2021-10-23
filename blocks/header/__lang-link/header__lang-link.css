@@ -1,0 +1,14 @@
+.header__lang-link{
+     color:#ffffff;
+    width: 27px;
+
+     text-decoration: none;
+}
+ .header__lang-link:hover{
+     color:red;
+}
+ .header__lang-link:active{
+     color:#ffffff;
+     text-decoration-line:underline;
+}
+ 

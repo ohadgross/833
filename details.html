@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="pages/index.css" />
+        <title>833 The Best Service Site</title>
+    </head>
+
+    <script language="javascript">
+
+        function validateForm() {
+   
+  
+            
+            var comments = document["form1"]["comments"].value;
+        
+            if (comments=='') {
+                alert('הטופס ריק');
+                return false;
+                }
+     
+       
+           return true;
+        }
+
+    </script>
+    <body class="page">
+        <div class="page__content">
+            <header class="header">
+               
+                <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="logo header" />
+                !!!כל מה שצריך למחשב בחינם
+                <br>
+                Last update: 3/11/2021
+               
+              
+                <ul class="header__link-container">
+                    <li class="header__link"><a href="details.html" class="header__lang-link">צור קשר</a></li>
+                    <li class="header__link"><a href="https://chat.whatsapp.com/Epo5RRenztGDeiMUNkD4RV" class="header__lang-link" target="_blank">
+                        <img src="./images/whatsapp.jpg" alt="Whatsapp">
+                תמיכה מטכנאי
+                    </a></li>
+                </ul>
+           
+            </header>
+
+            <main class="content">
+
+                <section class="details">
+                    <table border=1 align=center>
+                        <tr>
+                        <td align=right>
+                        
+                        <FONT color=white size=6 ALIGN=center>
+                        אתר שירות אשמח לקבל חוות דעת על האתר
+                        </font>
+                        
+                        <br>
+                        <FONT color=white size=6 ALIGN=center>
+                        :אנא מלא את הפרטים שלך בטופס הבא
+                        
+                        </FONT>
+                        </td></tr></table> 
+                        <!--action="scripts/send_mail.php"-->
+<form name="form1" id="form1"  method="POST" action="scripts/send_mail.php" onsubmit="return validateForm()">
+
+<br>
+<br> 
+<TABLE border=1 align=center>
+<tr><td><input type=text align=right size=70 name="first_name"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:שם
+</font>
+</td>
+</tr>
+<tr><td><input type=text align=right size=70 name="phone1"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:טלפון
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="phone2" ></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:וידוא טלפון
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="street"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:רחוב
+</font>
+</td>
+</tr>
+
+<tr><td><input type=text align=right size=70 name="city"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:עיר
+</font>
+</td>
+</tr>
+
+
+
+<tr><td>
+<input type=text align=right size=70 name="email1"></td>
+<td>
+<FONT color=white size=4 ALIGN=RIGHT>
+:דואר אלקטרוני
+</font>
+</td>
+</tr>
+<TR>
+<TR size=2>
+<td align=center>
+<FONT color=white size=4 ALIGN=RIGHT>
+:הערות
+</font>
+</td>
+</Tr><tr>
+<TD><textarea rows="10" cols="80" name="comments" required></textarea></TD>
+</TR>
+
+</tr>
+<TR></TR>
+<TR size=2>
+<TR>
+<TD width=2 align=center><button onclick="javascript:window.location.href = 'http://www.833.co.il'">ביטול</button>
+<button type="submit">שלח טופס</button></TD>
+</TR>
+<table>    
+
+            </section>
+
+               
+        
+            </main>
+
+            <footer class="footer">
+                <div class="footer__grid">
+               
+                   <span class="footer__copyright">&#169; 2021. Ohad Gross כל הזכויות שמורות</span>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

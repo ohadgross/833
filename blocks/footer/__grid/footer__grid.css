@@ -1,0 +1,16 @@
+.footer__grid{
+     display:grid;
+    /* grid-template-rows: 42px 64px 69px 165px;
+     */
+     grid-gap: 0px 18px;
+     grid-template-areas: "link link link copyright";
+}
+ @media screen and (max-width:320px) {
+     .footer__grid{
+         grid-gap: 18px 18px;
+        /* grid-template-columns: 24px 24px 24px 14px;
+        */
+         grid-template-areas: "link" "link" "link" "copyright";
+    }
+}
+ 

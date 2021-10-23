@@ -1,0 +1,27 @@
+.link__botton{
+   
+    width:200px;
+    height:50px;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid #a2d9ce;
+    transition: background-color 0.5s;
+    color:white;
+}
+.link__botton:hover{
+    background-color: #a2d9ce;
+    color:black;
+ 
+}
+
+@media screen and (min-width:321px) and (max-width:720px){
+    .link__botton {
+     
+ 
+}
+
+
+@media screen and (max-width: 320px) {
+    .link__botton {
+
+  }

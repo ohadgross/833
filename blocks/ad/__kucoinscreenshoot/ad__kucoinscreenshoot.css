@@ -1,0 +1,9 @@
+.ad__kucoinscreenshoot{
+    width: 347px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    .ad__kucoinscreenshoot {
+        width: 200px;
+  }

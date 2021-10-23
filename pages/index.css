@@ -1,0 +1,33 @@
+@import url("../vendor/normalize.css");
+ @import url("../fonts/inter-web/inter.css");
+ @import url("../blocks/page/page.css");
+ @import url("../blocks/page/__content/page__content.css");
+
+
+ @import url("../blocks/header/header.css");
+ @import url("../blocks/logo/_place/logo_place_header.css");
+ @import url("../blocks/header/__link-container/header__link-container.css");
+ @import url("../blocks/header/__lang-link/header__lang-link.css");
+ @import url("../blocks/header/__link/header__link.css");
+ 
+ @import url("../blocks/links/__article/links__article.css");
+ @import url("../blocks/link/link.css");
+
+ @import url("../blocks/link/__title/link__title.css");
+
+ @import url("../blocks/link/__botton/link__botton.css");
+
+ @import url("../blocks/link/__360video/link__360video.css");
+@import url("../blocks/link/__total360block/link__total360block.css");
+
+@import url("../blocks/ad/ad.css");
+@import url("../blocks/ad/__kucoinlogo/ad__kucoinlogo.css");
+@import url("../blocks/ad/__kucoinscreenshoot/ad__kucoinscreenshoot.css");
+@import url("../blocks/ad/__kucoinparagraph/ad__kucoinparagraph.css");
+@import url("../blocks/ad/__kucointitle/ad__kucointitle.css");
+@import url("../blocks/ad/__kucoinbotton/ad__kucoinbotton.css");
+
+ @import url("../blocks/footer/footer.css");
+ @import url("../blocks/footer/__grid/footer__grid.css");
+ @import url("../blocks/footer/__link/footer__link.css");
+ @import url("../blocks/footer/__copyright/footer__copyright.css");

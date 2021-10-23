@@ -1,0 +1,11 @@
+.link__title{
+    grid-area: title;
+    font-size: 24px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    color:white;
+    border: 1px solid ;
+    text-align: center;
+}
