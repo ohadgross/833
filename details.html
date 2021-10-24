@@ -13,9 +13,9 @@
    
   
             
-            var comments = document["form1"]["comments"].value;
+            var remarks = document["form1"]["remarks"].value;
         
-            if (comments=='') {
+            if (remarks=='') {
                 alert('הטופס ריק');
                 return false;
                 }
@@ -125,7 +125,7 @@
 </font>
 </td>
 </Tr><tr>
-<TD><textarea rows="10" cols="80" name="comments" required></textarea></TD>
+<TD><textarea rows="10" cols="80" name="remarks" required></textarea></TD>
 </TR>
 
 </tr>
@@ -133,7 +133,7 @@
 <TR size=2>
 <TR>
 <TD width=2 align=center><button onclick="javascript:window.location.href = 'http://www.833.co.il'">ביטול</button>
-<button type="submit">שלח טופס</button></TD>
+<button type="submit" id="send_botton" onclick="javascript:document.getElementById('send_botton').value = 'Sending Form...';">שלח טופס</button></TD>
 </TR>
 <table>    
 

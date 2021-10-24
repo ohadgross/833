@@ -2,12 +2,14 @@
    background-color: gray;
    display: flex;
 }
+/*MEIZU M10*/
 
 @media screen and (min-width:321px) and (max-width:720px){
     .header__title {
-        color:red;
+        background-color: white;
+        color:blue;
         font-size: 12px;
-        width:300px;
+        width:140px;
         justify-content: center;
 }
 }

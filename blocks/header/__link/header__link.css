@@ -2,23 +2,9 @@
      opacity: 0.8;
 }
 
- .header__link:first-child{
-     margin-right:18px;
-}
- 
+.header__link:first-child{
 
-@media screen and (min-width:321px) and (max-width:720px){
-     .header__link{
-      font-size:18px;
-      colore:red;
-   
- }
- 
+     margin-right:18px;
+
+
 }
- @media screen and (max-width: 320px) {
-     .header__link {
-          font-size:12px;
-   colore:blue;
-   }
- }
- 

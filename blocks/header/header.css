@@ -4,7 +4,7 @@
  
      position: relative;
      display:flex;
-     justify-content: space-between;
+    justify-content: space-between;
      flex-direction: row;
      align-items: center;
      flex-shrink: 0;
@@ -12,3 +12,17 @@
     /* parameters for the header section */
 }
  
+@media screen and (min-width:321px) and (max-width:720px){
+    .header  {
+    
+  justify-content:center;
+     
+}
+}
+
+@media screen and (max-width: 320px) {
+    .header  {
+       
+     
+  }
+}
