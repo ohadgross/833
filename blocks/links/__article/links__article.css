@@ -20,7 +20,7 @@
 @media screen and (min-width:321px) and (max-width:720px){
     .links__article {
      
-    background-color: gray;
+    background-color:black;
         grid-template-columns: auto;
       grid-template-rows: 50px 1fr 1000px;
       grid-template-areas:
