@@ -15,7 +15,7 @@
 @media screen and (min-width:321px) and (max-width:720px){
     .header  {
     
-  justify-content:center;
+  justify-content: start;
      
 }
 }
