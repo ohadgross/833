@@ -1,4 +1,6 @@
 .ad__kucoinbotton{
+    display:flex;
+    justify-content: center;
     width:200px;
     height:50px;
     background-color: rgb(109, 241, 109);

@@ -28,6 +28,8 @@
 @import url("../blocks/ad/__kucoinparagraph/ad__kucoinparagraph.css");
 @import url("../blocks/ad/__kucointitle/ad__kucointitle.css");
 @import url("../blocks/ad/__kucoinbotton/ad__kucoinbotton.css");
+@import url("../blocks/ad/__kucoinbotton-block/ad__kucoinbotton-block.css");
+@import url("../blocks/ad/__closebutton/ad__closebutton.css");
 
  @import url("../blocks/footer/footer.css");
  @import url("../blocks/footer/__grid/footer__grid.css");

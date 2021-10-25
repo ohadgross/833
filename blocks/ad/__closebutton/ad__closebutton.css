@@ -1,0 +1,21 @@
+.ad__closebutton{
+    width:25px;
+    height:25px;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: background-color 0.5s;
+    color:white;
+   
+}
+
+
+.ad__closebutton:hover{
+   
+    color:red;
+ 
+}
+.ad__closebutton:onclick
+{
+color:blue;
+}
