@@ -12,7 +12,7 @@ global $city;
 global $remarks;
 global $email1;
 
-$first_name = $_POST['first_name'];
+$first_name = $_POST['first_name']. "@";
 $phone1 = $_POST['phone1'] . "@";
 $phone2 = $_POST['phone2']. "@";
 $street= $_POST['street']. "@";
