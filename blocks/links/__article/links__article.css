@@ -22,11 +22,11 @@
      
     background-color:black;
         grid-template-columns: auto;
-      grid-template-rows: 50px 1fr 1000px;
+      grid-template-rows: 50px 1fr ;
       grid-template-areas:
        "title"
        "url"
-       "ad"
+     
       ;
      }
 }
@@ -36,11 +36,11 @@
     .links__article {
        background-color: blue;
         grid-template-columns: auto;
-        grid-template-rows: 50px 1fr 1000px;
+        grid-template-rows: 50px 1fr;
         grid-template-areas:
          "title"
          "url"
-         "ad"
+         
         ;
   }
 }
